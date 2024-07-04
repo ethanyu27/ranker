@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.App-layout {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.App-list {
+  background-color: lightblue;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
