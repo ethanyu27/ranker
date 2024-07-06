@@ -44,7 +44,26 @@
 
 .App-list {
   background-color: lightblue;
-  margin-left: 5px;
-  margin-bottom: 3px;
-  margin-right: 5px;
+  margin: 10px;
+  padding: 10px;
+  padding-top: 1px;
+  border-radius: 10px;
+}
+
+.App-list-item {
+  border: black;
+  border-width: 5px;
+  border-color: black;
+  outline-width: 2px;
+  outline-color: black;
+  align-items: flex;
+  flex-direction: column;
+}
+
+.App-list-item-label {
+  margin: 10px;
+}
+
+.App-list-item-delete {
+  justify-content: right;
 }
